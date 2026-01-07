@@ -23,6 +23,8 @@ Features include:
         <PackageProjectUrl>https://github.com/pathartl/BlazorBridge</PackageProjectUrl>
         <PackageIcon>Icon.png</PackageIcon>
         <PackageTags>blazor blazor-server blazor-wasm wasm interop jsinterop javascript typescript source-generator roslyn typed-js typed-interop  strongly-typed blazor-library dotnet dotnet8 webassembly ijsruntime bridging generator typed-proxy </PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -30,5 +32,6 @@ Features include:
               Pack="true"
               PackagePath="analyzers/dotnet/cs" />
         <None Include="Icon.png" Pack="true" PackagePath="" />
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 </Project>
